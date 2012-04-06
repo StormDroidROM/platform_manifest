@@ -18,7 +18,7 @@
            revision="ics" />
 
   <remote  name="sgs"
-           fetch="https://Stevespear426@github.com/"
+           fetch="http://github.com/"
            revision="ics" />
 
   <default revision="master"
