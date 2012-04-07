@@ -13,6 +13,10 @@
            fetch="http://github.com/CyanogenMod/"
            revision="ics" />
 
+  <remote  name="sgs"
+           fetch="http://github.com/"
+           revision="ics" />
+
   <default remote="aosp"
            sync-j="4" />
 
