@@ -5,16 +5,16 @@
            fetch="https://android.googlesource.com/" />
 
   <remote  name="gh"
-           fetch="http://github.com/"
+           fetch="https://github.com/"
            review="gerrit.aokp.co"
            revision="ics" />
 
   <remote  name="cm"
-           fetch="http://github.com/CyanogenMod/"
+           fetch="https://github.com/CyanogenMod/"
            revision="ics" />
 
   <remote  name="sgs"
-           fetch="http://github.com/"
+           fetch="https://github.com/"
            revision="ics" />
 
   <default remote="aosp"
@@ -207,7 +207,7 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
   <project path="frameworks/support" name="platform/frameworks/support" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
   <project path="hardware/cm" name="AOKP/hardware_cm" remote="gh" revision="ics" />
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="gh" revision="ics" />
+  <project path="hardware/broadcom/wlan" name="AOKP/android_hardware_broadcom_wlan" remote="gh" revision="ics" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
   <project path="hardware/libhardware" name="AOKP/android_hardware_libhardware" remote="gh" revision="ics" />
   <project path="hardware/libhardware_legacy" name="AOKP/android_hardware_libhardware_legacy" remote="gh" revision="ics" />
@@ -281,7 +281,7 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
   <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
   <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
-  <project path="system/bluetooth" name="AOKPSGS/system_bluetooth" remote="sgs" revision="ics"/>
+  <project path="system/bluetooth" name="AOKP/system_bluetooth" remote="gh" revision="ics"/>
   <project path="system/core" name="AOKP/system_core" remote="gh" revision="ics" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="gh" revision="ics" />
   <project path="system/media" name="platform/system/media" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
